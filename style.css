@@ -1,0 +1,275 @@
+/* text color #355494 */
+/* shoe color #517AC8 */
+/* Grid Trial */
+/* Nav section */
+body {
+  /* background-color: white;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(20, 100px); */
+}
+h1 {
+  font-family: "Martel", serif;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+}
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+  text-align: center;
+}
+h3 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+h4 {
+  font-family: "Martel", serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+p {
+  font-family: "Martel", serif;
+  font-size: 1rem;
+}
+
+button {
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  color: white;
+  background-color: #5bc8af;
+  font-family: "Merriweather Sans", sans-serif;
+  border-radius: 12rem;
+}
+/* NavBar Section */
+
+/* nav {
+  display: flex;
+  width: 100vw;
+  height: 7vw;
+  justify-content: space-between;
+} */
+ul {
+  list-style-type: none;
+  background-color: white;
+}
+.nav-bar {
+  display: flex;
+  width: 45vw;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.logo {
+  width: auto;
+  padding-left: 100px;
+  align-self: center;
+  /* grid-area: 1/2/2/3; */
+}
+.home {
+  /* grid-area: 1/8/2/9; */
+}
+.about {
+  /* grid-area: 1/9/2/10; */
+}
+.services {
+  /* grid-area: 1/10/2/11; */
+}
+.contact {
+  /* grid-area: 1/11/2/12; */
+}
+a {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
+}
+
+/* Hero section*/
+.hero {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: #517ac8;
+}
+.title {
+  grid-area: 1 / 3 / 2 / 7;
+}
+.subtitle {
+  grid-area: 2 / 2 / 3 / 8;
+}
+.book {
+  grid-area: 3 / 3 / 4 / 5;
+}
+.contact-us {
+  grid-area: 3 / 5 / 4 / 7;
+}
+/* sections */
+section {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+/* About Section */
+.about {
+  /* grid-template-rows: repeat(7, 1fr); */
+  grid-template-rows: 1fr 1fr 552px 1fr 1fr 1fr 1fr;
+}
+.become {
+  grid-area: 1 / 3 / 2 / 7;
+}
+.mission {
+  grid-area: 2 / 2 / 3 / 5;
+}
+.intro {
+  grid-area: 3 / 2 / 4 / 5;
+  display: flex;
+  flex-direction: column;
+}
+.over-bold {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.bold-text {
+  font-weight: 900;
+}
+.work1 {
+  grid-area: 4 / 2 / 5 / 8;
+}
+.boys {
+  max-width: 100%;
+  grid-area: 2 / 5 / 5 / 8;
+}
+
+.main-o {
+  grid-area: 5 / 5 / 6 / 7;
+  justify-self: end;
+  text-align: right;
+}
+.work2 {
+  grid-area: 7 / 5 / 8 / 8;
+}
+/* Services Section */
+.services {
+  /* grid-template-rows: repeat(8, 1fr); */
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+.provide {
+  grid-area: 1 / 3 / 2 / 7;
+}
+.pro-list1 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+.pro-list2 {
+  grid-area: 2 / 6 / 3 / 8;
+}
+.pro-list3 {
+  grid-area: 3 / 2 / 4 / 4;
+}
+.pro-list4 {
+  grid-area: 3 / 6 / 4 / 8;
+}
+.pro-list5 {
+  grid-area: 4 / 2 / 5 / 4;
+}
+.pro-list6 {
+  grid-area: 4 / 6 / 5 / 8;
+}
+
+.pro-video {
+  grid-area: 2 / 4 / 5 / 6;
+  width: 100%;
+}
+.prices {
+  grid-area: 5 / 4 / 6 / 6;
+}
+.act1 {
+  grid-area: 6 / 2 / 7 / 4;
+}
+.cost1 {
+  grid-area: 6 / 4 / 7 / 5;
+}
+.act2 {
+  grid-area: 7 / 2 / 8 / 4;
+}
+.cost2 {
+  grid-area: 7 / 4 / 8 / 5;
+}
+.act3 {
+  grid-area: 6 / 5 / 7 / 7;
+}
+.cost3 {
+  grid-area: 6 / 7 / 7 / 8;
+}
+.act4 {
+  grid-area: 7 / 5 / 8 / 7;
+}
+.cost4 {
+  grid-area: 7 / 7 / 8 / 8;
+}
+.dryfit {
+  text-align: center;
+  grid-area: 8/4/9/6;
+}
+
+/* Inspiration Section */
+.inspiration {
+  grid-template-rows: 1fr 1fr 1fr 5vh 1fr 612px;
+}
+.inspir-title {
+  grid-area: 1 / 2 / 2 / 8;
+}
+.kyle-pic {
+  grid-area: 2 / 2 / 4 / 5;
+  max-width: 75%;
+}
+.choose {
+  grid-area: 5 / 2 / 6 / 8;
+}
+.group {
+  grid-area: 6 / 1 / 7 / 9;
+  width: 100%;
+}
+.inspir-quote {
+  grid-area: 2 / 5 / 4 / 8;
+}
+.stat-con {
+  width: 100%;
+  height: 100%;
+  grid-area: 4 / 2 / 5 / 5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stats {
+  font-family: "Martel", serif;
+  font-size: 0.5rem;
+}
+.stats:hover {
+  color: #517ac8;
+}
+
+/* Call to Action section */
